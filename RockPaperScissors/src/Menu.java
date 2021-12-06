@@ -44,7 +44,7 @@ public class Menu {
 			case START:
 				System.out.println("Would you like to begin program");
 				answer = userAnswer();
-				if (!(answer.equalsIgnoreCase("no"))||(answer.equalsIgnoreCase("n"))) {
+				if (!answer.equalsIgnoreCase("no") && (!answer.equalsIgnoreCase("n"))) {
 					System.out.println("Starting Program.");
 					return;
 				} else {
